@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "3d8b4ceddeac436c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0db4c5a965024d50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5c0a0ff7feca9f9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "03b0375c835e9956",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PintOS/project 02/syscall.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b5807405e17a104",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PintOS/project 03/TIL 2022-12-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fdab5b904064cb3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "90ba34829d0ef107",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "560feba0917f8c0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b8a6a7b60709b84",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7afc53f361938b1c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d6cf780414fdc30f",
+    "type": "split",
+    "children": [
+      {
+        "id": "297aff845030e9cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec16f36a3ba94e8a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PintOS/project 03/TIL 2022-12-02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9eb097ec7691e916",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PintOS/project 03/TIL 2022-12-02.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c4a36ed709d677c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e7efcd54bff026a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PintOS/project 03/TIL 2022-12-02.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "9b5807405e17a104",
+  "lastOpenFiles": [
+    "PintOS/project 03/TIL 2022-12-02.md",
+    "PintOS/project 02/syscall.md",
+    "PintOS/project 02/shell 스크립트 while문.md",
+    "PintOS/project 01/1주차 thread (수정할것).md",
+    "Jungle/JUNGLE -day 73.md",
+    "PintOS/무제폴더/project 01.md"
+  ]
+}
