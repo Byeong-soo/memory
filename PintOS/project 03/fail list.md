@@ -1,4 +1,5 @@
 끝냄!!!!!
+
 pass tests/userprog/args-none
 pass tests/userprog/args-single
 pass tests/userprog/args-multiple
@@ -74,32 +75,35 @@ pass tests/vm/page-linear
 pass tests/vm/page-parallel
 pass tests/vm/page-merge-seq
 pass tests/vm/page-merge-par
-
-하는 중.... (33 of 141 tests failed)
-FAIL tests/vm/page-merge-stk
-
-앞으로 할것.
+pass tests/vm/page-merge-stk
 FAIL tests/vm/page-merge-mm
 pass tests/vm/page-shuffle
 FAIL tests/vm/mmap-read
 FAIL tests/vm/mmap-close
 FAIL tests/vm/mmap-unmap
-FAIL tests/vm/mmap-overlap
-FAIL tests/vm/mmap-twice
+pass tests/vm/mmap-overlap
+pass tests/vm/mmap-twice
+
+하는 중.... (22 of 141 tests failed)
+FAIL tests/vm/mmap-bad-fd
+
+앞으로 할것.
+
+
 FAIL tests/vm/mmap-write
-FAIL tests/vm/mmap-ro
+pass tests/vm/mmap-ro
 FAIL tests/vm/mmap-exit
-FAIL tests/vm/mmap-shuffle
+pass tests/vm/mmap-shuffle
 FAIL tests/vm/mmap-bad-fd
 FAIL tests/vm/mmap-clean
-FAIL tests/vm/mmap-inherit
+pass tests/vm/mmap-inherit
 FAIL tests/vm/mmap-misalign
 FAIL tests/vm/mmap-null
 FAIL tests/vm/mmap-over-code
 FAIL tests/vm/mmap-over-data
 FAIL tests/vm/mmap-over-stk
-FAIL tests/vm/mmap-remove
-FAIL tests/vm/mmap-zero
+pass tests/vm/mmap-remove
+pass tests/vm/mmap-zero
 FAIL tests/vm/mmap-bad-fd2
 FAIL tests/vm/mmap-bad-fd3
 FAIL tests/vm/mmap-zero-len
@@ -144,3 +148,4 @@ pass tests/threads/priority-sema
 pass tests/threads/priority-condvar
 pass tests/threads/priority-donate-chain
 FAIL tests/vm/cow/cow-simple
+24 of 141 tests failed.

@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0db4c5a965024d50",
+        "id": "b981d274d6241498",
         "type": "tabs",
         "children": [
           {
-            "id": "14af1fc302949774",
+            "id": "84bf1c63c2c74bf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/JUNGLE -day 73.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a60f81958caf2d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +32,7 @@
             }
           },
           {
-            "id": "5550c082515fdb6e",
+            "id": "a9c8135e3f305d96",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PintOS/project 03/TIL 2022-12-08.md",
+                "file": "PintOS/project 03/fail list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PintOS/project 03/TIL 2022-12-08.md",
+                "file": "PintOS/project 03/fail list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PintOS/project 03/TIL 2022-12-08.md"
+                "file": "PintOS/project 03/fail list.md"
               }
             }
           }
@@ -149,17 +162,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "14af1fc302949774",
+  "active": "a9c8135e3f305d96",
   "lastOpenFiles": [
-    "PintOS/picture/Pasted image 20221201221919.png",
-    "PintOS/picture/Pasted image 20221202011722.png",
-    "PintOS/picture/Pasted image 20221202015334.png",
-    "PintOS/picture/Pasted image 20221202015640.png",
-    "PintOS/picture/Pasted image 20221202021854.png",
-    "PintOS/picture/Pasted image 20221202022200.png",
-    "PintOS/picture/Pasted image 20221202024332.png",
-    "PintOS/picture/Pasted image 20221202024347.png",
-    "PintOS/picture/Pasted image 20221204053859.png",
-    "PintOS/picture/Pasted image 20221204054116.png"
+    "PintOS/project 03/TIL 2022-12-09.md",
+    "PintOS/project 03/fail list.md",
+    "PintOS/project 03/TIL 2022-12-08.md",
+    "PintOS/project 03/TIL 2022-12-02.md",
+    "PintOS/project 03/TIL 2022-12-03.md",
+    "PintOS/project 03/TIL 2022-12-04.md",
+    "PintOS/project 03/TIL 2022-12-05.md",
+    "PintOS/project 03/TIL 2022-12-06.md",
+    "PintOS/project 03/TIL 2022-12-07.md",
+    "daily/2022-12-08.md"
   ]
 }
