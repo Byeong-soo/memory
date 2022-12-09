@@ -78,44 +78,28 @@ pass tests/vm/page-merge-par
 pass tests/vm/page-merge-stk
 FAIL tests/vm/page-merge-mm
 pass tests/vm/page-shuffle
-FAIL tests/vm/mmap-read
-FAIL tests/vm/mmap-close
-FAIL tests/vm/mmap-unmap
+pass tests/vm/mmap-read
+pass tests/vm/mmap-close
+pass tests/vm/mmap-unmap
 pass tests/vm/mmap-overlap
 pass tests/vm/mmap-twice
-
-하는 중.... (22 of 141 tests failed)
-FAIL tests/vm/mmap-bad-fd
-
-앞으로 할것.
-
-
-FAIL tests/vm/mmap-write
+pass tests/vm/mmap-write
 pass tests/vm/mmap-ro
-FAIL tests/vm/mmap-exit
+pass tests/vm/mmap-exit
 pass tests/vm/mmap-shuffle
-FAIL tests/vm/mmap-bad-fd
-FAIL tests/vm/mmap-clean
+pass tests/vm/mmap-bad-fd
+pass tests/vm/mmap-clean
+pass tests/vm/mmap-misalign
+pass tests/vm/mmap-null
 pass tests/vm/mmap-inherit
-FAIL tests/vm/mmap-misalign
-FAIL tests/vm/mmap-null
-FAIL tests/vm/mmap-over-code
-FAIL tests/vm/mmap-over-data
-FAIL tests/vm/mmap-over-stk
+pass tests/vm/mmap-over-code
+pass tests/vm/mmap-over-data
+pass tests/vm/mmap-over-stk
 pass tests/vm/mmap-remove
 pass tests/vm/mmap-zero
-FAIL tests/vm/mmap-bad-fd2
-FAIL tests/vm/mmap-bad-fd3
-FAIL tests/vm/mmap-zero-len
-FAIL tests/vm/mmap-off
-FAIL tests/vm/mmap-bad-off
-FAIL tests/vm/mmap-kernel
-FAIL tests/vm/lazy-file
-pass tests/vm/lazy-anon
-FAIL tests/vm/swap-file
-FAIL tests/vm/swap-anon
-FAIL tests/vm/swap-iter
-FAIL tests/vm/swap-fork
+pass tests/vm/mmap-bad-fd2
+pass tests/vm/mmap-bad-fd3
+pass tests/vm/mmap-zero-len
 pass tests/filesys/base/lg-create
 pass tests/filesys/base/lg-full
 pass tests/filesys/base/lg-random
@@ -147,5 +131,18 @@ pass tests/threads/priority-preempt
 pass tests/threads/priority-sema
 pass tests/threads/priority-condvar
 pass tests/threads/priority-donate-chain
+하는 중.... (12 of 141 tests failed)
+
+
+앞으로 할것.
+
+FAIL tests/vm/mmap-off
+FAIL tests/vm/mmap-bad-off
+FAIL tests/vm/mmap-kernel
+FAIL tests/vm/lazy-file
+pass tests/vm/lazy-anon
+FAIL tests/vm/swap-file
+FAIL tests/vm/swap-anon
+FAIL tests/vm/swap-iter
 FAIL tests/vm/cow/cow-simple
-24 of 141 tests failed.
+12 of 141 tests failed.
