@@ -1,5 +1,3 @@
-끝냄!!!!!
-
 pass tests/userprog/args-none
 pass tests/userprog/args-single
 pass tests/userprog/args-multiple
@@ -89,9 +87,9 @@ pass tests/vm/mmap-exit
 pass tests/vm/mmap-shuffle
 pass tests/vm/mmap-bad-fd
 pass tests/vm/mmap-clean
+pass tests/vm/mmap-inherit
 pass tests/vm/mmap-misalign
 pass tests/vm/mmap-null
-pass tests/vm/mmap-inherit
 pass tests/vm/mmap-over-code
 pass tests/vm/mmap-over-data
 pass tests/vm/mmap-over-stk
@@ -100,6 +98,15 @@ pass tests/vm/mmap-zero
 pass tests/vm/mmap-bad-fd2
 pass tests/vm/mmap-bad-fd3
 pass tests/vm/mmap-zero-len
+pass tests/vm/mmap-off
+pass tests/vm/mmap-bad-off
+pass tests/vm/mmap-kernel
+FAIL tests/vm/lazy-file
+pass tests/vm/lazy-anon
+FAIL tests/vm/swap-file
+FAIL tests/vm/swap-anon
+FAIL tests/vm/swap-iter
+pass tests/vm/swap-fork
 pass tests/filesys/base/lg-create
 pass tests/filesys/base/lg-full
 pass tests/filesys/base/lg-random
@@ -131,18 +138,5 @@ pass tests/threads/priority-preempt
 pass tests/threads/priority-sema
 pass tests/threads/priority-condvar
 pass tests/threads/priority-donate-chain
-하는 중.... (12 of 141 tests failed)
-
-
-앞으로 할것.
-
-FAIL tests/vm/mmap-off
-FAIL tests/vm/mmap-bad-off
-FAIL tests/vm/mmap-kernel
-FAIL tests/vm/lazy-file
-pass tests/vm/lazy-anon
-FAIL tests/vm/swap-file
-FAIL tests/vm/swap-anon
-FAIL tests/vm/swap-iter
 FAIL tests/vm/cow/cow-simple
-12 of 141 tests failed.
+8 of 141 tests failed.
