@@ -1,3 +1,4 @@
+pass tests/vm/cow/cow-simple
 pass tests/userprog/args-none
 pass tests/userprog/args-single
 pass tests/userprog/args-multiple
@@ -36,7 +37,7 @@ pass tests/userprog/write-stdin
 pass tests/userprog/write-bad-fd
 pass tests/userprog/fork-once
 pass tests/userprog/fork-multiple
-pass tests/userprog/fork-recursive
+FAIL tests/userprog/fork-recursive
 pass tests/userprog/fork-read
 pass tests/userprog/fork-close
 pass tests/userprog/fork-boundary
@@ -50,11 +51,11 @@ pass tests/userprog/wait-simple
 pass tests/userprog/wait-twice
 pass tests/userprog/wait-killed
 pass tests/userprog/wait-bad-pid
-pass tests/userprog/multi-recurse
+FAIL tests/userprog/multi-recurse
 pass tests/userprog/multi-child-fd
 pass tests/userprog/rox-simple
 pass tests/userprog/rox-child
-pass tests/userprog/rox-multichild
+FAIL tests/userprog/rox-multichild
 pass tests/userprog/bad-read
 pass tests/userprog/bad-write
 pass tests/userprog/bad-read2
@@ -72,8 +73,8 @@ pass tests/vm/pt-grow-stk-sc
 pass tests/vm/page-linear
 pass tests/vm/page-parallel
 pass tests/vm/page-merge-seq
-pass tests/vm/page-merge-par
-pass tests/vm/page-merge-stk
+FAIL tests/vm/page-merge-par
+FAIL tests/vm/page-merge-stk
 FAIL tests/vm/page-merge-mm
 pass tests/vm/page-shuffle
 pass tests/vm/mmap-read
@@ -87,7 +88,7 @@ pass tests/vm/mmap-exit
 pass tests/vm/mmap-shuffle
 pass tests/vm/mmap-bad-fd
 pass tests/vm/mmap-clean
-pass tests/vm/mmap-inherit
+FAIL tests/vm/mmap-inherit
 pass tests/vm/mmap-misalign
 pass tests/vm/mmap-null
 pass tests/vm/mmap-over-code
@@ -101,11 +102,11 @@ pass tests/vm/mmap-zero-len
 pass tests/vm/mmap-off
 pass tests/vm/mmap-bad-off
 pass tests/vm/mmap-kernel
-FAIL tests/vm/lazy-file
+pass tests/vm/lazy-file
 pass tests/vm/lazy-anon
-FAIL tests/vm/swap-file
-FAIL tests/vm/swap-anon
-FAIL tests/vm/swap-iter
+pass tests/vm/swap-file
+pass tests/vm/swap-anon
+pass tests/vm/swap-iter
 pass tests/vm/swap-fork
 pass tests/filesys/base/lg-create
 pass tests/filesys/base/lg-full
@@ -138,5 +139,16 @@ pass tests/threads/priority-preempt
 pass tests/threads/priority-sema
 pass tests/threads/priority-condvar
 pass tests/threads/priority-donate-chain
-FAIL tests/vm/cow/cow-simple
-8 of 141 tests failed.
+pass tests/vm/cow/cow-simple
+
+
+
++ new page va = 400000
++ new page va = 401000
++ new page va = 402000
++ new page va = 403000
++ new page va = 404000
++ 
++ new page va = 604000
++ new page va = 605000
++ new page va = 4747F000
