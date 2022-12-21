@@ -37,14 +37,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/basic/스프링 컨테이너.md",
+                "file": "Spring/basic/좋은 객체 지향 프로그래밍이란?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0b0ab081c735d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/basic/BeanFactory와 ApplicationContext.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b7712e804b665a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/basic/싱클톤 & 싱글톤 컨테이너.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa51cfa67744597f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/basic/컴포넌트 스캔.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48d8801fc1edb201",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/basic/의존관계 자동 주입.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -110,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/basic/스프링 컨테이너.md",
+                "file": "Spring/basic/의존관계 자동 주입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/basic/스프링 컨테이너.md",
+                "file": "Spring/basic/의존관계 자동 주입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/basic/스프링 컨테이너.md"
+                "file": "Spring/basic/의존관계 자동 주입.md"
               }
             }
           }
@@ -162,17 +210,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "9089acf1ad1465b8",
+  "active": "48d8801fc1edb201",
   "lastOpenFiles": [
-    "Spring/basic/스프링 빈.md",
+    "Spring/basic/컴포넌트 스캔.md",
+    "Spring/basic/BeanFactory와 ApplicationContext.md",
+    "Spring/basic/picture/Pasted image 20221219214135.png",
+    "Pasted image 20221220224511.png",
+    "Spring/basic/싱클톤 & 싱글톤 컨테이너.md",
     "Spring/basic/스프링 컨테이너.md",
     "Spring/basic/basic.md",
-    "Spring/basic/좋은 객체 지향 프로그래밍이란?.md",
-    "Spring/basic/스프링이란?.md",
-    "Spring/basic/picture/Pasted image 20221219142651.png",
     "Spring/basic/좋은 객체 지향 설계의 5가지 원칙 (SOLID).md",
-    "Pasted image 20221218215608.png",
-    "Spring/basic/picture/Pasted image 20221218170537.png",
-    "Spring/basic/picture/Pasted image 20221218170601.png"
+    "Spring/basic/좋은 객체 지향 프로그래밍이란?.md",
+    "Spring/basic/스프링 빈.md"
   ]
 }
