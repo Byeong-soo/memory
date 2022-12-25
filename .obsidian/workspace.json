@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4572e3d0c3a1ec65",
+        "id": "f0a6f3d0095b25fe",
         "type": "tabs",
         "children": [
           {
-            "id": "332a1c1268a4ada3",
+            "id": "59a013d76798b386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/basic/BeanFactory와 ApplicationContext.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2808253dadfcb7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/JPA basic/JPA 설정 및 기본.md",
+                "file": "Spring/JPA basic/다양한 연관관계 매핑.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA basic/JPA 설정 및 기본.md",
+                "file": "Spring/JPA basic/다양한 연관관계 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA basic/JPA 설정 및 기본.md",
+                "file": "Spring/JPA basic/다양한 연관관계 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA basic/JPA 설정 및 기본.md"
+                "file": "Spring/JPA basic/다양한 연관관계 매핑.md"
               }
             }
           }
@@ -150,17 +137,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "b2808253dadfcb7a",
+  "active": "59a013d76798b386",
   "lastOpenFiles": [
-    "Spring/JPA basic/picture/Pasted image 20221224205021.png",
-    "Spring/JPA basic/영속성 관리.md",
-    "Spring/JPA basic/picture/Pasted image 20221224221358.png",
-    "Spring/JPA basic/JPA 설정 및 기본.md",
-    "Spring/JPA basic/picture/Pasted image 20221224194120.png",
+    "Spring/JPA basic/연관관계 매핑 기초.md",
     "Spring/basic/BeanFactory와 ApplicationContext.md",
-    "Spring/basic/컴포넌트 스캔.md",
-    "Spring/basic/의존관계 자동 주입.md",
-    "Spring/basic/싱클톤 & 싱글톤 컨테이너.md",
-    "Spring/basic/스프링 빈.md"
+    "Spring/JPA basic/영속성 관리.md",
+    "Spring/JPA basic/picture/Pasted image 20221225221745.png",
+    "Spring/JPA basic/picture/Pasted image 20221225223822.png",
+    "Spring/JPA basic/JPA 설정 및 기본.md",
+    "Spring/JPA basic/picture/Pasted image 20221225045734.png",
+    "Spring/JPA basic/엔티티 매핑.md",
+    "Spring/JPA basic/picture/Pasted image 20221224205021.png",
+    "Spring/JPA basic/picture/Pasted image 20221224221358.png"
   ]
 }
