@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0a6f3d0095b25fe",
+        "id": "bc96f3d18021d3c7",
         "type": "tabs",
         "children": [
           {
-            "id": "59a013d76798b386",
+            "id": "66744bab0d8fc509",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Spring/JPA basic/다양한 연관관계 매핑.md",
-                "mode": "source",
-                "source": false
+                "file": "Spring/JPA basic/picture/Pasted image 20221226233022.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA basic/다양한 연관관계 매핑.md",
+                "file": "Spring/JPA basic/picture/Pasted image 20221226233022.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA basic/다양한 연관관계 매핑.md",
+                "file": "Spring/JPA basic/picture/Pasted image 20221226233022.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA basic/다양한 연관관계 매핑.md"
+                "file": "Spring/JPA basic/picture/Pasted image 20221226233022.png"
               }
             }
           }
@@ -137,17 +135,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "59a013d76798b386",
+  "active": "560feba0917f8c0f",
   "lastOpenFiles": [
+    "Spring/JPA basic/picture/Pasted image 20221226233907.png",
+    "Spring/JPA basic/고급 매핑.md",
+    "Spring/JPA basic/picture/Pasted image 20221225235821.png",
+    "Spring/JPA basic/다양한 연관관계 매핑.md",
+    "Spring/JPA basic/picture/Pasted image 20221226025205.png",
     "Spring/JPA basic/연관관계 매핑 기초.md",
     "Spring/basic/BeanFactory와 ApplicationContext.md",
     "Spring/JPA basic/영속성 관리.md",
     "Spring/JPA basic/picture/Pasted image 20221225221745.png",
-    "Spring/JPA basic/picture/Pasted image 20221225223822.png",
-    "Spring/JPA basic/JPA 설정 및 기본.md",
-    "Spring/JPA basic/picture/Pasted image 20221225045734.png",
-    "Spring/JPA basic/엔티티 매핑.md",
-    "Spring/JPA basic/picture/Pasted image 20221224205021.png",
-    "Spring/JPA basic/picture/Pasted image 20221224221358.png"
+    "Spring/JPA basic/picture/Pasted image 20221225223822.png"
   ]
 }
